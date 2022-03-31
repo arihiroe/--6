@@ -1,0 +1,83 @@
+@charset "UTF-8";
+$maincolor: #FFF;
+
+html {
+font-family:  "Noto Sans JP",'Times New Roman', Times, serif;
+font-size: 62.5%;
+font-weight: regular;
+}
+
+a{
+  text-decoration: none;
+  color: #121212;
+}
+body{
+  background-color: $maincolor;
+  font-size: 1.4rem;
+
+}
+
+img{
+  max-width: 100%;
+}
+
+li{
+  list-style: none;
+}
+
+h1{
+  margin-bottom: 38px;
+}
+
+header{
+  width: 300px;
+  padding: 40px 45px;
+  background-color: $maincolor;
+  position: fixed;
+}
+
+nav{
+  
+  li{
+    margin-bottom: 16px;
+     &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  ul{
+    margin-bottom: 76px;
+  }
+}
+
+.container{
+  margin-left: 300px;
+}
+
+.wrapper{
+  max-width: 900px;
+  padding:0 20px;
+}
+
+h2{
+color: $maincolor;
+}
+
+#project{
+
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li{
+      width:35%;
+      border: solid $maincolor 1px;
+    }
+  }
+}
+
+
+// @media and (max-width: 960px) {
+
+  
+// }
